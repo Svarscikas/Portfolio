@@ -201,14 +201,42 @@ p {
 .Message-Content {
     display: flex;
     flex-direction: row;
+    gap: 2rem;
     color: white;
     padding: 2rem;
     background-color: var(--background-secondary);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-.Message-Content form div {
-
+textarea {
+    border-radius: 1rem;
+    transition: 200ms;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 0.5rem;
+    resize: none;
+}
+button {
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem; 
+    border-radius: 1rem; 
+    width: 100%; 
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem; 
+    border: none;
+    background-color: var(--background-fourth);
+    transition: 200ms;
+}
+button:hover{
+    background-color: #F806CC;
+}
+textarea:focus {
+    outline: solid var(--background-third); 
 }
 .Project-item {
     width: 90%;
@@ -218,12 +246,16 @@ input:focus {
    outline: solid var(--background-third); 
 }
 input {
+    margin-top: 0.5rem;
     transition: 200ms;
     font-size: 1rem;
     padding: 0.75rem;
     border-radius: 1rem;
     border: none;
-    margin: 1rem;
+}
+.label {
+    text-align: center;
+    border-bottom: 3px solid white;
 }
 @keyframes wave {
     0%,40%,100% {

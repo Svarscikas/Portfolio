@@ -155,19 +155,30 @@
     <div class="Section-container">
         <div class="Project-item" style="width: 65%;">
             <div class="Item-Category">Send A Message</div>
+            <form action="https://formsubmit.co/arnas.e@email.com" method="POST">
             <div class="Message-Content">
-                <form>
-                    <div>
-                        Name:<input type="text" name="Name" placeholder="Enter your full name" required><br>
-                        Email:<input type="text" name="Email" placeholder="Enter your e-mail" required><br>
-                        Phone: <input type="text" phone="Phone" placeholder="Enter your phone number" required><br>
+                
+                    <div style="display: flex; flex-direction: column; flex: 3;">
+                        <div class="label">Name</div>
+                        <input type="text" name="Name" placeholder="Enter your full name" required><br>
+                        <div class="label">Email</div>
+                        <input type="email" name="Email" placeholder="Enter your e-mail" required><br>
+                        <div class="label">Phone</div>
+                        <input type="text" phone="Phone" placeholder="Enter your phone number" required><br>
                     </div>
-                    <div>
-                        Message: <textarea placeholder="Your message" name="Message" required></textarea>
+                    <div style="display: flex; flex-direction: column; flex: 4">
+                        <div class="label">Message</div>
+                        <textarea style="flex:2;"
+                        placeholder="Your message" name="Message" required></textarea>
+                        <div style="flex: 1;">
+                            <button type="submit">Send</button>
+                        </div>
+                        
                     </div>   
-                </form>
+                
                 
             </div>
+        </form>
         </div>
     </div>
 </body>

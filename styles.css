@@ -80,7 +80,7 @@ a {
     justify-content: center;
 }
 .About-image img {
-    height: 70%;
+    width: 70%;
     box-shadow: 7px 10px 3px 2px black;
 }
 .Centered-text {
@@ -292,7 +292,7 @@ input {
     }
     .About-image img {
         box-shadow: 7px 10px 3px 2px black;
-        height: 100%;
+        width: 50%;
     }
     .About-image{
         padding: 0;

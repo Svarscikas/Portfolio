@@ -279,9 +279,17 @@ input {
 
 @media only screen and (max-width: 700px) {
     .About-container {
+        padding-top: 1rem;
         display: flex;
         flex-direction: column;
         height: calc(100vh-5rem);
+    }
+    .About-text {
+        padding: 3rem;
+        box-sizing: border-box;
+    }
+    .Centered-text {
+        padding: 0;
     }
     .About-image img {
         box-shadow: 7px 10px 3px 2px black;

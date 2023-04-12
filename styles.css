@@ -276,3 +276,55 @@ input {
       transform: translateY(-10px)
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .About-container {
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .About-image img {
+        width: 70%;
+        box-shadow: 7px 10px 3px 2px black;
+    }
+    .Section-container {
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Container-name {
+        margin-bottom: 2rem;
+    }
+    .Skills-Item {
+        width: 85%;
+    }
+    .Item-Content-Project{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        color: white;
+        background-color: var(--background-secondary);
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        
+    }
+    .Item-Content-Project img {
+        width: 20%;
+        height: auto;
+    }
+    .Message-Content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: white;
+        padding: 2rem;
+        background-color: var(--background-secondary);
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}

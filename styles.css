@@ -281,10 +281,11 @@ input {
     .About-container {
         display: flex;
         flex-direction: column;
+        height: calc(100vh-5rem);
     }
     .About-image img {
-        width: 70%;
         box-shadow: 7px 10px 3px 2px black;
+        height: 100%;
     }
     .Section-container {
         height: auto;
@@ -340,4 +341,5 @@ input {
     .social-links svg{
         height: 3rem;
     }
+    
 }

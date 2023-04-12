@@ -22,9 +22,10 @@ body{
     height: 5rem;
     background-color:var(--background-fourth);
 }
-.Navigation-logo svg{
-    height: 3rem;
-    fill: white;
+.Navigation-logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 html{
     scroll-behavior:smooth

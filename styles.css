@@ -354,8 +354,15 @@ input {
     .Big-text{
         display: inline-block;
         font-size: 2rem;
-
-        
     }
-    
+    .Navigation-logo {
+        display: none;
+    }
+    .Navigation-item {
+        width: 25%;
+        font-size: 1.25rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        justify-content: center;
+    }
 }

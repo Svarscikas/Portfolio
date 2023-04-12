@@ -64,7 +64,7 @@ a {
     padding-top: 5rem;
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 5rem);
+    height: calc(100% - 5rem);
 }
 .About-text {
     box-sizing: border-box;
@@ -79,8 +79,7 @@ a {
     justify-content: center;
 }
 .About-image img {
-    width: 350px;
-    height: 350px;
+    height: 70%;
     box-shadow: 7px 10px 3px 2px black;
 }
 .Centered-text {
@@ -118,7 +117,7 @@ p {
 .Skills-container {
     display: flex;
     align-items: center;
-    height: calc(100vh - 15rem);
+    height: calc(100% - 15rem);
     flex-direction: row;
     justify-content: space-around;
 }

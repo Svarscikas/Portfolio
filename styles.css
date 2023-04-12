@@ -177,6 +177,17 @@ p {
 .Item-Content svg {
     height: 4rem;
 }
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.social-links div {
+    cursor: pointer;
+}
+.social-links svg{
+    height: 4rem;
+}
 .App-link {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
